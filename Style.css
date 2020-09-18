@@ -1,0 +1,46 @@
+<style>
+    footer
+       {background-color: #F2F2F2;font-size:11.5; color:#EEEEEE;font-family: 'Arial', serif;margin: 10px auto;line-height:1.6;} 
+       header
+       {font-size:11.5; color:#EEEEEE;font-family: 'Arial', serif;margin: 10px auto;line-height:1.6;}
+       body
+       {font-size:11; color:#222222;font-family: 'Arial', serif;margin: 10px auto;line-height:1.6;}
+    </style>
+#conteneur
+{display: flex;
+    justify-content: end;
+}
+
+.element 
+
+{width: 20px;
+height:50px}
+.element:nth-child(1)
+{}
+.element:nth-child(2)
+{}
+.element:nth-child(3)
+{}
+.element:nth-child(4)
+{}
+#conteneur1
+{display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.element 
+
+{width: 150px;
+height:100px}
+.element: nth-child(1)
+{margin: auto}
+.element:nth-child(2)
+{margin: auto}
+.element:nth-child(3)
+{margin: auto}
+
+footer
+ {background-color: #F2F2F2;font-family: Arial;color: #454545; font-size: 16px;line-height: 1.4text-align:justify} 
+ header
+ {font-family: Arial;color: #454545; font-size: 16px;line-height: 1.4text-align:justify} 
